@@ -1,3 +1,4 @@
+# M2_seven-segment-interfacing-with-AVR-ATMEGA32
 
 ## Research
 In this project The Seven-segment consists of 7 LEDs arranged in a way that allows constructing a display of the numbers of (0-9). It has 10 pins assigned as follows:
