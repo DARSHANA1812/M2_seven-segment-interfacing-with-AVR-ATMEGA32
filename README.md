@@ -5,6 +5,7 @@
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b7439e94cf44405e972f28adc7a90c81)](https://www.codacy.com/gh/DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32&amp;utm_campaign=Badge_Grade)
 
+[![Code Quality - Cppcheck](https://github.com/DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32/actions/workflows/c-cpp.yml)
 
 #Folder Structure :
 | Folder_Name |	Description |
