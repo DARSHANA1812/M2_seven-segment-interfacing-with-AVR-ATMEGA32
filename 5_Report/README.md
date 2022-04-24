@@ -32,7 +32,7 @@ __STRENGTH__
 *   cost of leds are cheap.
 *   Realibility, efficiency, production. 
 
-__WEAHNESS__
+__WEAKNESS__
 * Most seven segment display are limited to displaying the 16 hexadecimal characters.
 * Seven-segment displays are limited to possible binary combinations of the four input leads,for a total 0f 16. 
 
