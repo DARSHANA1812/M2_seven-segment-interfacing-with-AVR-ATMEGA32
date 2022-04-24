@@ -16,4 +16,4 @@
 ![segment pic](https://user-images.githubusercontent.com/101334197/164955097-4d3ff9b6-e1a8-4933-b7ad-36408d22128a.jpeg)
 
 ## simulation 
-| <img src="6_Output/off.png" width="400"> |
+| <img src="6_Output/off.png" width="400"> | --- |
