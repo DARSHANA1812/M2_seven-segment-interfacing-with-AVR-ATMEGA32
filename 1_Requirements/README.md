@@ -25,54 +25,52 @@ The straightforward way to do that is to connect each pin from the seven-segment
 __Components Used__
 *   Atmega32
 *   Resistors
-*   Segment display
-*   Switches
+*   7 Segment display
+*   push switch
 *   Power Supply
 
 ## SWOT Analysis
 __STRENGTH__
-*   It work like an alert system for the blind people.
-*   It is   cheaper than compared to the existing system .
-*   The LCD out available in this project makes the  people to detect  of the  opposite objects .
-  
-__WEAKNESS__
-*   It gives only the information of the opposite objects only.
-*   Due to we used only one ultra sonic sensor This gives only information of lesser distance.
+*   It provides a convenient way of displaying numerical information from zero to nine .
+*   cost of leds are cheap.
+*   Realibility, efficiency, production. 
 
-__OPPURTUNITIES__
-*   There will be no need for the dependent to go outside.
-*   The updation of the projects will be we have to give some specifications like 360 degree assistance .
-*   We also make this glasses for the reading purpose also *Smart Glass For the Blind* with some added specifications.
- 
+__WEAHNESS__
+* Most seven segment display are limited to displaying the 16 hexadecimal characters.
+* Seven-segment displays are limited to possible binary combinations of the four input leads,for a total 0f 16. 
+
+__OPPORTUNITIES__
+*The 7-segment display, also written as “seven segment display”, consists of seven LEDs (hence its name) arranged in a rectangular fashion as shown. Each of the seven LEDs is called a segment because when illuminated the segment forms part of a numerical digit (both Decimal and Hex) to be displayed.
+
 __THREATS__
-*   The major challenges is There will be an Battery backup .If they go for some long distance then battery backups is concerned .
+* This is the most challenge seven segment display are limited to displaying the 16 hexadecimal characters ,Seven-segment displays are limited to possible binary combinations of the four input leads,for a total 0f 16.
 
 ## 4W'S and 1'H
 __WHO__
-This will be useful to an the blind peoples.
+This will be useful to convenient way of displaying numerical information
 
 __WHAT__
-The main aim  of this project is to reduce the dependencies of the other people of blind peoples .
+The main aim  of this project is to A seven-segment display is a form of electronic display device for displaying decimal numerals that is an alternative to the more complex dot matrix displays. Seven-segment displays are widely used in digital clocks, electronic meters, basic calculators, and other electronic devices that display numerical information .
 
 __WHEN__
-This will be useful to them when they go outside and whenever they need assistance . .
+This will be useful to when illuminated the segment forms part of a numerical digit (both Decimal and Hex) to be displayed .
 
 __WHERE__
-This will be working in every where .This also works in rainny days and winter also.
+This will be working in According to the type of application, there are two types of configurations of seven segment displays: common anode display and common cathode display. In common cathode seven segment displays, all the cathode connections of LED segments are connected together to logic 0 or ground.
 
 __HOW__
-The sensor used in this project Ultrasonic sensor which detects the opposite objects and send this information to the microcontroller then it gives the message to the user.
+The straightforward way to do that is to connect each pin from the seven-segment to a pin on the MCU and use the software to control the LEDs lighting and display the numbers we want. However, this way is not efficient as it wastes a lot of valuable MCU pins
+
 ## Detail Requirements 
 __High Level Requirements__
 | ID | Description | Status |
 | -- | ----------- | ------ |
-| HLR1 | UltraSonic Sensors | Used for the sensing the objects |
-| HLR2 | Atmega 328p | Microcontroller used for the entire process |
+| HLR1 | seven-segment display | provides a convenient way of displaying numerical information |
+| HLR2 | Atmega 32 | Microcontroller used for the entire process |
 | HLR3 | Source Code | Used for the Execute the system |
 
 __Low Level Requirements__
 | ID | Description | Status |
 | -- | ----------- | ------ |
-| LLR1 | Buzzer | Used for the output of the Microcontroller |
-| LLR2 | Glass | Used  as  support for the sensor |
-| LLR3 | LCD   | Used for the output calculations |
+| LLR1 | resistors | Used to protect the leds |
+| LLR2 | display  | Used for the output calculations |
