@@ -11,6 +11,8 @@
 
 [![Bulid CI - windows](https://github.com/DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32/actions/workflows/Windows.yml/badge.svg)](https://github.com/DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32/actions/workflows/Windows.yml)
 
+[![Git Inspector](https://github.com/DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32/actions/workflows/Git%20Inspector.yml/badge.svg)](https://github.com/DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32/actions/workflows/Git%20Inspector.yml)
+
 #Folder Structure :
 | Folder_Name |	Description |
 | --- | ----- |
