@@ -8,3 +8,6 @@
 
 ## Structural Diagram
 ![Structural diagram](https://user-images.githubusercontent.com/101334197/164955008-c123ca95-504d-4eb7-94ae-588301096801.jpeg)
+
+## Segment-pinout diagram
+![segment-pinout diagram](https://user-images.githubusercontent.com/101334197/164955043-a2929e3b-4506-4953-b433-b5634334c0f7.jpeg)
