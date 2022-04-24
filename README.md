@@ -7,6 +7,8 @@
 
 [![Code Quality - Cppcheck](https://github.com/DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32/actions/workflows/c-cpp.yml)
 
+[![Build_CI - Linux](https://github.com/DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32/actions/workflows/linux.yml/badge.svg)](https://github.com/DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32/actions/workflows/linux.yml)
+
 #Folder Structure :
 | Folder_Name |	Description |
 | --- | ----- |
