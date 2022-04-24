@@ -16,4 +16,4 @@
 ![segment pic](https://user-images.githubusercontent.com/101334197/164955097-4d3ff9b6-e1a8-4933-b7ad-36408d22128a.jpeg)
 
 ## simulation 
-
+![simulation](https://user-images.githubusercontent.com/101334197/164955341-9955fb14-5fcf-42a9-8ec1-ce9a722cdf10.png)
