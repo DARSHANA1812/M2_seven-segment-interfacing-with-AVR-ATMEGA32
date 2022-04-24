@@ -9,6 +9,8 @@
 
 [![Build_CI - Linux](https://github.com/DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32/actions/workflows/linux.yml/badge.svg)](https://github.com/DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32/actions/workflows/linux.yml)
 
+[![Bulid CI - windows](https://github.com/DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32/actions/workflows/Windows.yml/badge.svg)](https://github.com/DARSHANA1812/M2_seven-segment-interfacing-with-AVR-ATMEGA32/actions/workflows/Windows.yml)
+
 #Folder Structure :
 | Folder_Name |	Description |
 | --- | ----- |
