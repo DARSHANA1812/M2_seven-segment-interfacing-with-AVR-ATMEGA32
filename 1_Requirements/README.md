@@ -2,25 +2,30 @@
 
 # Requirements
 ## Introduction
-The main Aim of this project to help the Blind people.Using this process the opposite objects,or the humans can be easily detected.Here we used only the basic process of sensors
-This is the simple and effective projects for the blind peoples . Now days the percentage of blindness can be increasing shortly . we make this mini process of the ultrasonic sensors . This is simple and low cost product which can be low maintenence product compared to the other products. This usage of this process can be deliverable into an complete products like Smart Glass ,and walking stick.
+The main Aim of this project is the 7-segment displays are made up of 8 LED segments. 7 of these LED segments are in the shape of a line, whereas 1 segment is circular. The 7 line-shaped LED segments are used for displaying numbers 0 to 9 and a few letters like A, c, d, e, F, H, L, O, P, U, etc. The circular segment is used for displaying a decimal point.Each of the 8 elements has a pin associated with it which can be driven HIGH or LOW according to the type of display and the number or alphabet to be displayed.The common anode and common cathode types are available in a 7-segment display. Depending on which type is used, the control signal required to light up a segment in the display changes. Common anode requires a LOW signal whereas common cathode requires a HIGH signal to light up a segment.
 ## Research
-In this project we used only demo functions. Since most of the blind person use glasses and it inspires us for installing the device on
-glasses. The ultrasonic sensor is installed on the glasses, but the main unit which including the
-minimum system, power supply, and the main switch are placed on a box, and the blind person
-can put in his/her pocket. Compare with the device from the University of Oxford, this device
-is more practical and easier to use. 
+In this project The Seven-segment consists of 7 LEDs arranged in a way that allows constructing a display of the numbers of (0-9). It has 10 pins assigned as follows:
+
+7 pins act as the Vcc for the 7 LEDs (1 pin for each LED, assuming that we are dealing with common cathode seven segment display)
+1 pin is the VCC for decimal point display at the lower right corner.
+2 pins represent a common ground to all the LEDs.
+
 ## Defining our project
-Ultrasonic sensor “HC-SR04” provides an output signal proportional to distance based on the echo. The sensor here generates a sound vibration in ultrasonic range upon giving a trigger, after that it waits for the sound vibration to return. Now based on the parameters, sound speed (220m/s) and time taken for the echo to reach the source, it provides output pulse proportional to distance.
+There are 2 types of seven-segment, that are “common anode” and “common cathode”. In common anode seven segment, VCC is common for all the LEDs and each has a different pin for the low voltage (that is ground). In the case of a common cathode, all LEDs have a common ground and each has a different pin for the high voltage (Vcc). In this tutorial, we will be using a common cathode 7 Segment display.
+
+Interfacing 7 Segment Display with AVR Atmega32:
+The straightforward way to do that is to connect each pin from the seven-segment to a pin on the MCU and use the software to control the LEDs lighting and display the numbers we want. However, this way is not efficient as it wastes a lot of valuable MCU pins. Imagine that you want to connect 2 seven-segment devices to display the numbers (0-99), in this case, you will need to use 14 pins of the MCU I/O pins which may leave you in a shortage of pins for other external peripherals
 
 ## Features
-*   It Has an weather assistance it will works in any weathers .
-*   LCD used in this projects will give some clear informations to the users.
+*   Available in two modes common cathode and comoon anode.
+*   Available in many different sizes .
+*   Available colours like blue,red,green etc.,  .
+*   lower current operation
 
 __Components Used__
-*   Atmega328
-*   HC-SR04 (Ultrasonic) sensor
-*   LCD display
+*   Atmega32
+*   Resistors
+*   Segment display
 *   Switches
 *   Power Supply
 
